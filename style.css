@@ -1,9 +1,73 @@
-#icone{
+body{
+    background-color: #978C82;
+    color: #2B304A;
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-bottom: 20em;
+    padding: 0px;
+    background-color: #86838A;
+}
+header{
+    background-color: #978C82;
+}
+h1{
+    margin:0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+h2{
+    border-top: 2px solid black ;
+    margin: 0;
+    padding-bottom:2px ;
+    border: 2px solid black;
+}
+article{
+    background-color: #ABAABF;
+    background-size: content;
+    padding: 2px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.icone{
     height: 1em;
 }
 .centralizar{
     text-align: center;
 }
-.setas{
-    font-size: 4em;
+#working{
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+li a:link{
+    text-decoration: none;
+    color: #3f509c;
+}
+li a:visited{
+    text-decoration: none;
+    color: #3f509c;
+}
+.button{
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0;
+    background-color: #1F1B25 ;
+    border: 1px solid;
+    padding: 0.3em;
+    color: #FBF9FA;
+    border: 0;
+}
+.button:hover{
+    background-color: #838294 ;
+}
+a:link .button{
+    color: #FBF9FA;
+}
+a:visited .button{
+    color: #FBF9FA;
 }
