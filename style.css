@@ -12,6 +12,9 @@ section{
 header{
     background-color: #978C82;
 }
+hr{
+    border-color: black;
+}
 h1{
     margin:0;
     padding: 0;
